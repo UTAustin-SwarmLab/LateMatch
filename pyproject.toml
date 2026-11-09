@@ -1,0 +1,29 @@
+[project]
+name = "latematch"
+description = "LateMatch: Breaking the Interaction Bottleneck via Cacheable Matching for Efficient Visual Localization"
+version = "0.1"
+readme = "README.md"
+authors = [
+    {name = "Mohammad Omama"},
+    {name = "Aeyan Ashraf"},
+    {name = "Sandeep Chinchali"},
+]
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = [
+    "torch>=2.11.0",
+    "torchvision>=0.26.0",
+    "numpy>=2.4.6",
+    "opencv-python>=5.0.0",
+    "matplotlib>=3.11.2",
+    "kornia>=0.8.3",
+    "requests>=2.34.2",
+]
+
+[project.urls]
+Repository = "https://github.com/UTAustin-SwarmLab/LateMatch"
+Issues = "https://github.com/UTAustin-SwarmLab/LateMatch/issues"
+Paper = "https://arxiv.org/abs/2610.25358"
+
+[tool.setuptools]
+packages = ["latematch"]
